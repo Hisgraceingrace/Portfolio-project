@@ -49,7 +49,7 @@ p {
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  color: #272142;
+  color: var(--secondary-color);
 }
 .hero a {
   background-color: var(--primary-color);
@@ -92,7 +92,7 @@ p {
   line-height: 27px;
 }
 .about-content {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .about-content h1 {
   font-size: 64px;
@@ -104,7 +104,7 @@ p {
   line-height: 27px;
 }
 .about-content p {
-  color: #272142;
+  color: var(--secondary-color);
   opacity: 0.7;
 }
 .about-section {
@@ -131,7 +131,7 @@ p {
   text-align: center;
 }
 .work-content p {
-  color: #272142;
+  color: var(--secondary-color);
   opacity: 0.7;
   font-size: 14px;
   font-weight: 400px;
@@ -139,9 +139,33 @@ p {
   text-align: center;
 }
 .work-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .contact-section {
-  padding: 160px, 20px;
+  padding: 60px 20px;
   text-align: center;
+}
+
+nav img.small-logo {
+  max-width: 50px;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+  line-height: 42px;
 }
