@@ -15,8 +15,10 @@ h6 {
   font-weight: bold;
 }
 
+h1,
 h2 {
   font-size: 64px;
+  line-height: 80px;
 }
 
 p {
@@ -120,4 +122,26 @@ p {
   border-radius: 10px;
   height: 560px;
   width: 560px;
+}
+.work-content h2 {
+  font-family: var(--default-font-family);
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.work-content p {
+  color: #272142;
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 21px;
+  text-align: center;
+}
+.work-section {
+  padding: 160px 20px;
+}
+.contact-section {
+  padding: 160px, 20px;
+  text-align: center;
 }
