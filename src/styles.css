@@ -108,7 +108,7 @@ p {
   opacity: 0.7;
 }
 .about-section {
-  margin: 30px;
+  margin: 0 30px;
 }
 .about-content a,
 .work-inquiry a {
@@ -141,16 +141,13 @@ p {
   text-align: center;
 }
 .work-section {
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 .contact-section {
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
-nav img.small-logo {
-  max-width: 50px;
-}
 nav {
   padding: 20px 0;
 }
